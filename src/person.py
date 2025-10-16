@@ -25,7 +25,7 @@ class Person:
         palabra en mayúscula (capitalizado).
         
         Returns:
-            str: Nombre completo capitalizado
+            str: Nombre completo capitalizado.
         """
         return f"{self.first_name} {self.last_name}".title()   
 
